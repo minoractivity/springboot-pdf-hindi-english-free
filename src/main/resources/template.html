@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+    </head>
+
+    <body>
+        <div class='header' th:include="header::header"></div>
+
+        <div th:include="letterhead::letterhead"></div>
+
+        <h1>YOUR EXAMPLE THYMELEAF PDF</h1>
+
+        <p>Dear [[${data.getFirstname()}]] [[${data.getLastname()}]],</p>
+
+        <p>Chalo Pandit Ji is the nation's largest aggregator of Pandit Ji's, offering
+personalized pooja services to devotees. It is a comprehensive site that
+offers services such as Pooja, Paath, Hawan, and astrology. Chalo Pandit Ji
+also conducts an astrological helpline during which he listens to the
+devotee's concerns and objectives and offers them thorough guidance and
+remedies. The subscriber can choose between a wide range of service
+packages depending on their preferences, which are customized to basically every individual's preferences.</p>
+
+        <p>Through many features, this application aims to simplify the process of
+yajmans hosting puja. We developed this app after understanding about the
+significant preparation that goes into any puja. Over time, our vision has
+evolved from simply booking a pandit for a puja to a massive scale that
+includes bhakti sangrah, a hindu library, prasad recipe, and many other things.</p>
+
+        <p><b>WHY SHOULD YOU CONSIDER CHALO PANDIT JI APP?,</b></p>
+
+        <p>Minor Activity Example Project</p>
+
+        <p><b>You find more information on the second page.</b></p>
+
+        <div class='footer' th:include="footer::footer"></div>
+
+        <div class="next-page">
+
+            <h2>More Information</h2>
+
+            <p>चलो To reduce your hassle of finding a good pandit and acquiring the necessary items for your puja.
+
+Explore renowned temples free live darshans (Soon Arrivals).
+Panchang is freely accessible.
+
+Book and Consult  Muhurat with renowned Pandit ji at your local on your own and find a convenient date and time for you.
+
+English and Hindi versions are available.</p>
+            <p>To reduce your hassle of finding a good pandit and acquiring the necessary items for your puja.
+
+Explore renowned temples free live darshans (Soon Arrivals).
+Panchang is freely accessible.
+
+Book and Consult  Muhurat with renowned Pandit ji at your local on your own and find a convenient date and time for you.
+
+English and Hindi versions are available.</p>
+            <p>चलो पंडित जी पंडित जी के प्रसाद के देश के सबसे बड़े एग्रीगेटर हैं
+भक्तों के लिए व्यक्तिगत पूजा सेवाएं। यह एक व्यापक साइट है कि
+पूजा, पाठ, हवन और ज्योतिष जैसी सेवाएं प्रदान करता है। चलो पंडित जी
+एक ज्योतिषीय हेल्पलाइन भी संचालित करता है जिसके दौरान वह सुनता है
+भक्त की चिंताओं और उद्देश्यों और उन्हें संपूर्ण मार्गदर्शन प्रदान करता है और
+उपाय। ग्राहक सेवा की एक विस्तृत श्रृंखला के बीच चयन कर सकता है
+उनकी प्राथमिकताओं के आधार पर पैकेज, जो मूल रूप से प्रत्येक व्यक्ति की प्राथमिकताओं के लिए अनुकूलित किए जाते हैं।.</p>
+            <p>चलो पंडित जी पंडित जी के प्रसाद के देश के सबसे बड़े एग्रीगेटर हैं
+भक्तों के लिए व्यक्तिगत पूजा सेवाएं। यह एक व्यापक साइट है कि
+पूजा, पाठ, हवन और ज्योतिष जैसी सेवाएं प्रदान करता है। चलो पंडित जी
+एक ज्योतिषीय हेल्पलाइन भी संचालित करता है जिसके दौरान वह सुनता है
+भक्त की चिंताओं और उद्देश्यों और उन्हें संपूर्ण मार्गदर्शन प्रदान करता है और
+उपाय। ग्राहक सेवा की एक विस्तृत श्रृंखला के बीच चयन कर सकता है
+उनकी प्राथमिकताओं के आधार पर पैकेज, जो मूल रूप से प्रत्येक व्यक्ति की प्राथमिकताओं के लिए अनुकूलित किए जाते हैं।.</p>
+        </div>
+
+        <div class='footer' th:include="footer::footer"></div>
+    </body>
+
+</html>
